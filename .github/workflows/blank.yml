@@ -31,5 +31,5 @@ jobs:
         run: |
           docker pull ghcr.io/labring/fastgpt:latest
           docker login --username=18851594950a --password='18851594950!!' registry.cn-shanghai.aliyuncs.com
-          docker tag labring/fastgpt:latest registry.cn-shanghai.aliyuncs.com/fastgpt001/fastgpt:latest
+          docker tag ghcr.io/labring/fastgpt:latest registry.cn-shanghai.aliyuncs.com/fastgpt001/fastgpt:latest
           docker push registry.cn-shanghai.aliyuncs.com/fastgpt001/fastgpt:latest
